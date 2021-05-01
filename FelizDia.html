@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="¡Feliz Día del Trabajador!">
+    <meta name="keywords" content="¡Feliz Día!, broma">
+    <meta name="author" content="Villamandos Gonzalo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horóscopo 2021</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background:url(dt.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+
+    h1 {
+        align-content: center;
+        text-align: center;
+        color: rgb(194, 9, 9);
+        font-size: 50px;
+        text-shadow: 2px 2px black;
+         }  
+    .audio{
+        bottom: 10vh; 
+        position: fixed; 
+        right: 10vh; 
+
+        }
+        .playtext {
+            color: chartreuse;
+            text-shadow: 2px 2px black;
+            bottom: 12vh; 
+            position: fixed; 
+            right: 70vh;
+            font-size: 20px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="backg">
+
+     </div>
+     <div class="texto">
+
+        <script>
+            let nombre = prompt("¿Cuál es tu nombre?")
+            document.write("<h1>Feliz día " + nombre + "!!" + "<br>Ahora a divertirse guapo!</h1>");
+
+         </script>
+     </div>
+     <div class="playtext"> <h2>Dale play →→</h2></div>
+     <div class="audio">
+        <audio controls autoplay>
+            <source src="everybodydance.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+     </div>
+
+
+    
+</body>
+</html>
